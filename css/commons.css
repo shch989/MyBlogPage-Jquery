@@ -53,3 +53,10 @@ tr, td {
 .article-body > ul {
     margin: 10px;
 }
+
+tr:nth-child(2n-1) {
+    background-color: lightgray;
+}
+tr:first-child {
+    background-color: lightblue;
+}
